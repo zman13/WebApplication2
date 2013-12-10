@@ -15,7 +15,7 @@ namespace WebApplication2
     {
         static Startup()
         {
-            PublicClientId = "self";
+            PublicClientId = "self1";
 
             UserManagerFactory = () => new UserManager<IdentityUser>(new UserStore<IdentityUser>());
 
